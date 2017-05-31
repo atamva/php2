@@ -1,0 +1,27 @@
+body{
+    font-family: Georgia;
+    font-size: 14px;
+    color: black;
+}
+
+a{
+    color: #0000ff;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type="text"] {
+    width: 500px;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+}
+.brd {
+    width: 437px;
+    display: inline-block;
+}
+input.login
+{
+   width: 200px;
+}

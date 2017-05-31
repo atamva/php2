@@ -1,0 +1,13 @@
+#Включаем модульпереписывания URL
+RewriteEngine on
+
+#Путь до корня сайта
+RewriteBase /
+
+#исключить ситуац с существующими
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#перенаправление
+RewriteRule .*? index.php/$0
